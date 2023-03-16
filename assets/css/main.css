@@ -173,6 +173,10 @@ textarea {
 		min-width: 320px;
 	}
 
+	.image-bio {
+		width: 50%;
+	}
+
 }
 
 html {
@@ -411,6 +415,10 @@ hr {
 
 .align-right {
 	text-align: right;
+}
+
+#about p {
+	font-size: 18px;
 }
 
 /* Form */
@@ -761,11 +769,27 @@ input[type="radio"]+label:before {
 
 .portfolio-card {
 	width: 50%;
-	height: 3em;
-	border: 1px solid red;
+}
+
+.tech-description {
+	height: 0.5rem;
+	font-size: .8rem;
+	width: 80%;
+	padding-bottom: 8%;
+}
+
+.project-description {
+	height: 4.5rem;
+	font-size: .8rem;
+	width: 80%;
+	margin-bottom: 13%
 }
 
 /* Image */
+
+.project-image {
+	width: 70%;
+}
 
 .image {
 	border-radius: 4px;
@@ -790,7 +814,7 @@ input[type="radio"]+label:before {
 }
 
 .image-bio {
-	width: 50%;
+	width: 30%;
 	float: left;
 	margin-right: 3.5%;
 	border-radius: 5%;
@@ -867,6 +891,11 @@ input[type="radio"]+label:before {
 		padding: 1%;
 		margin-right: 3%;
 		margin-left: -1%;
+		width: 50%
+	}
+
+	#about p {
+		font-size: 14.5px;
 	}
 
 }
