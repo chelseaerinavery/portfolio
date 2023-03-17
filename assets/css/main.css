@@ -771,6 +771,10 @@ input[type="radio"]+label:before {
 	width: 50%;
 }
 
+.portfolio-card a {
+	border-bottom: none;
+}
+
 .tech-description {
 	height: 0.5rem;
 	font-size: .9rem;
