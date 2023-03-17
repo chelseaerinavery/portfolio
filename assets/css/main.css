@@ -773,16 +773,15 @@ input[type="radio"]+label:before {
 
 .tech-description {
 	height: 0.5rem;
-	font-size: .8rem;
+	font-size: .9rem;
 	width: 80%;
 	padding-bottom: 8%;
 }
 
 .project-description {
-	height: 4.5rem;
-	font-size: .8rem;
-	width: 80%;
-	margin-bottom: 13%
+	height: 5em;
+	font-size: .9rem;
+	width: 95%;
 }
 
 /* Image */
@@ -879,6 +878,10 @@ input[type="radio"]+label:before {
 		margin-left: -1%;
 	}
 
+	.tech-description {
+		width: 100%;
+	}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -896,6 +899,25 @@ input[type="radio"]+label:before {
 
 	#about p {
 		font-size: 14.5px;
+	}
+
+	.portfolio-card {
+		width: 100%;
+	}
+
+	.portfolio-card h6 {
+		font-size: .8rem;
+	}
+
+	.project-description {
+		width: 100%;
+		height: auto;
+		font-size: 1.2em;
+	}
+
+	.tech-description {
+		font-size: 1.2em;
+		height: auto;
 	}
 
 }
