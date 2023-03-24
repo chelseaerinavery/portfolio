@@ -775,6 +775,10 @@ input[type="radio"]+label:before {
 	border-bottom: none;
 }
 
+.portfolio-card h6 {
+	margin: 0px;
+}
+
 .tech-description {
 	height: 0.5rem;
 	font-size: .9rem;
@@ -910,11 +914,13 @@ input[type="radio"]+label:before {
 		width: 100%;
 		height: auto;
 		font-size: 1.2em;
+		margin: 0px;
 	}
 
 	.tech-description {
 		font-size: 1.2em;
 		height: auto;
+		margin: 0px;
 	}
 
 }
