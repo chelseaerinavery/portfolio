@@ -780,7 +780,7 @@ input[type="radio"]+label:before {
 }
 
 .tech-description {
-	height: 0.5rem;
+	height: 3.5rem;
 	font-size: .9rem;
 	width: 80%;
 	padding-bottom: 8%;
@@ -919,7 +919,7 @@ input[type="radio"]+label:before {
 
 	.tech-description {
 		font-size: 1.2em;
-		height: 3rem;
+		height: auto;
 		margin: 0px;
 	}
 
