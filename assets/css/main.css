@@ -919,7 +919,7 @@ input[type="radio"]+label:before {
 
 	.tech-description {
 		font-size: 1.2em;
-		height: auto;
+		height: 3rem;
 		margin: 0px;
 	}
 
