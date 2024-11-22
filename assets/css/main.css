@@ -1398,7 +1398,8 @@ body.is-preload #bg:before {
 }
 
 .banner {
-	color: black
+	color: black;
+	padding: 2%;
 }
 
 /* Wrapper */
