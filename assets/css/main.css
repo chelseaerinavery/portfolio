@@ -1388,6 +1388,19 @@ body.is-preload #bg:before {
 	background-color: #000000;
 }
 
+/* Banner */
+
+.banner-wrapper {
+	background-color: yellow;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.banner {
+	color: black
+}
+
 /* Wrapper */
 
 #wrapper {
